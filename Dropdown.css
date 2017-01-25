@@ -3,6 +3,7 @@
 }
 body{
   background-color: #d3b886;
+  min-width: 600px;
 }/*-------------------------------------*/
 main{
     background-color: #FFFFFF;
@@ -14,6 +15,7 @@ main{
   background-color: #4f5153;
   position: relative;
   top: 35px;
+  z-index: 10;/*higher z index comes in front of other text*/
 }/*-------------------------------------*/
 #nav_wrapper{
   width: auto;
