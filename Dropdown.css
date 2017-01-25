@@ -1,5 +1,4 @@
 *{/*universal settings until set otherwise below*/
-  padding: 0;
   margin: 0;
 }
 body{
@@ -8,7 +7,6 @@ body{
 main{
     background-color: #FFFFFF;
       height: 800px;
-      padding: 25px;
       font-family: Arial;
       font-size: 18px;
 }/*-------------------------------------*/
@@ -16,7 +14,7 @@ main{
   background-color: #222;
 }/*-------------------------------------*/
 #nav_wrapper{
-  width: 960px;
+  width: auto;
   margin: 0;
   text-align: left;
 }/*-------------------------------------*/
@@ -65,12 +63,26 @@ main{
   color: #099;
 }/*-------------------------------------*/
 #homeTitle{
-  height: 100px;
+  height: 300px;
   margin: 0;
   background-image: url("Photos/smokyConcert.JPG");
+  background-size: cover;
+}/*-------------------------------------*/
+#countryTitle{
+  height: 300px;
+  margin: 0;
+  background-image: url("Photos/country.JPG");
+  background-size: cover;
+}/*-------------------------------------*/
+#europeanTitle{
+  height: 300px;
+  margin: 0;
+  background-image: url("Photos/zeppelin.JPG");
+  background-size: cover;
 }/*-------------------------------------*/
 h1{
   margin: 0;
+  text-align: center;
 }
 p{                        /*universal for all pages*/
   padding: 25px;
