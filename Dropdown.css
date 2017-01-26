@@ -93,3 +93,16 @@ footer{
     height: 45px;;
     background postition: -60px;
 }
+
+embed {
+  float: left;
+  margin: 15px;
+  padding: 15 px;
+}
+
+#listDiv {
+  float: left;
+  margin: 15px;
+  padding: 15px;
+  width: 35%;
+}

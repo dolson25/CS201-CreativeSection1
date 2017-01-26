@@ -4,6 +4,16 @@
 <head>
     <title>Pop</title>
 <link href="Dropdown.css" type="text/css" rel="stylesheet"/>
+
+<script>
+    var message = true;
+    alertFunction = function() {
+        if(message){
+             window.alert("The creators of this website apologize for any inconvenience.  It is nearly impossible to find a pop song that can be legally embedded in this website");
+             message = false;
+        }
+    }
+</script>
 </head>
 <body>
     <div id="title" style="background-image:url(Photos/pop.JPG)">
@@ -35,16 +45,25 @@
         and get their artists spots on the radio, TV, CD's, and now our phones and the internet.
       </p>
       <!--maybe insert country related picture here??-->
-      <h3>Artists/Bands:</h3>
-      <ul>
-        <li>Michael Jackson, the "King of Pop"</li>
-        <li>Elvis Presley</li>
-        <li>Madonna</li>
-        <li>The Beatles</li>
-        <li>Beyonce</li>
-        <li>Justin Bieber</li>
-        <li>Taylor Swift</li>
-      </ul>
+      <div id="listDiv">
+        <h3>Artists/Bands:</h3>
+        <ul>
+          <li>Michael Jackson, the "King of Pop"</li>
+          <li>Elvis Presley</li>
+          <li>Madonna</li>
+          <li>The Beatles</li>
+          <li>Beyonce</li>
+          <li>Justin Bieber</li>
+          <li>Taylor Swift</li>
+        </ul>
+      </div>
+      <div id="listDiv">
+         <h3>Sample</h3>
+
+        <embed width="420" height="315" onmouseover="alertFunction();"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ">
+      </embed>
+     </div>
     </main>
     <footer></footer>
 </body>
