@@ -106,3 +106,9 @@ embed {
   padding: 15px;
   width: 35%;
 }
+
+#pics {
+  float: left;
+  width: 50%;
+  height: 400px;
+}
