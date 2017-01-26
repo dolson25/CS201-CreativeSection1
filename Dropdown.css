@@ -112,3 +112,20 @@ embed {
   width: 50%;
   height: 400px;
 }
+
+#euro {
+  background-color: #d1c9be;
+}
+
+#pop {
+  background-color: #c7dff9;
+}
+
+#home {
+  background-color: #e8d7b9;
+}
+
+#country {
+  background-color: #afafac;
+}
+
