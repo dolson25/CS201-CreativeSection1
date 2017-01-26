@@ -1,2 +1,2 @@
 # CS201-CreativeSection1
-David Olson and Jake Barker, using html and css
+David Olson and Jake Barker, using html and css and javascript
