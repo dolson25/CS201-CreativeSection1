@@ -3,16 +3,20 @@
 }
 body{
   background-color: #d3b886;
-  min-width: 600px;
+  min-width: 850px;
 }/*-------------------------------------*/
 main{
     background-color: #FFFFFF;
-      height: 800px;
       font-family: Arial;
-      font-size: 18px;
+      font-size: 14pt;
+      height: 650px;
+
 }/*-------------------------------------*/
 #nav{
   background-color: #4f5153;
+  font-size: 16pt;
+  /*background-image: url("Photos/wood1024x768.jpg");*/
+  background-position: 0 0;
   position: relative;
   top: 35px;
   z-index: 10;/*higher z index comes in front of other text*/
@@ -83,4 +87,9 @@ h1{
 }
 p{                        /*universal for all pages*/
   padding: 25px;
+}
+footer{
+    background-color: #4f5153;
+    height: 45px;;
+    background postition: -60px;
 }
